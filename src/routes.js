@@ -48,6 +48,7 @@ import Matters from "layouts/matters/"
 
 // @mui icons
 import Icon from "@mui/material/Icon";
+import Contracts from "layouts/contracts";
 
 const routes = [
   {
@@ -79,8 +80,8 @@ const routes = [
     name: "Contracts",
     key: "rtl",
     icon: <Icon fontSize="small">format_textdirection_r_to_l</Icon>,
-    route: "/rtl",
-    component: <RTL />,
+    route: "/contracts",
+    component: <Contracts />,
   },
   {
     type: "collapse",
